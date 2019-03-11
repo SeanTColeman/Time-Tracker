@@ -1,2 +1,2 @@
 # Time-Tracker
-Simple app keeping track of the time and date
+Simple app to keep track of the time and date
