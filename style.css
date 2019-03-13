@@ -3,9 +3,9 @@ body {
   color: #fff;
 }
 
-h1 {
+#name {
   position: relative;
-  top: 85px;
+  top: 10%;
   text-align: center;
   font-size: 45px;
 }
@@ -17,7 +17,7 @@ h1 {
   background: #fff;
 
   position: absolute;
-  top: 60px;
+  top: 100%;
   left: 50%;
   margin: 0 0 0 -75px;
 }
@@ -28,7 +28,10 @@ h1 {
   text-align: center;
   line-height: 70px;
   position: absolute;
-  top: calc(50% - 105px);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /* top: calc(50% - 105px); */
   font-size: 40px;
   width: 100%;
 }
