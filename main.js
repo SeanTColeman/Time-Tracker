@@ -116,6 +116,7 @@ document.getElementById('timeBtn').style.background = '#44FFD9';
 
 function displayTime() {
   if (dateToggle === true || stopWatchToggle === true) {
+    clearInterval(interval);
     updateClock();
     removeElement();
     myTimer = setInterval(updateClock, 1000);
@@ -131,6 +132,7 @@ function displayTime() {
 
 function displayDate() {
   if (timeToggle === true || stopWatchToggle === true) {
+    clearInterval(interval);
     gettingDate();
     removeElement();
     document.getElementById('name').innerText = 'Date';
